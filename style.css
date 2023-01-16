@@ -1,0 +1,50 @@
+
+body {
+    background-color: rgb(51, 51, 137);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  #title {
+    color: white;
+  }
+  
+  #description {
+    color: white;
+  }
+  
+  #survey-form {
+    background-color: rgb(75, 75, 195);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+  }
+  
+  label {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  #name, #email, #number, option {
+    width: 95%;
+    padding: 10px;
+  }
+  
+  select {
+    width: 100%;
+    height: 40px;
+  }
+  
+  #submit {
+    margin-top: 20px;
+    background-color: rgb(56, 148, 56);
+    color: white;
+    padding: 20px;
+    border: 0px;
+    font-size: 25px;
+  }
